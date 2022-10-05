@@ -1,0 +1,78 @@
+body {
+  margin:0;
+  padding:0;
+  background: url(dental.jpg) no-repeat center fixed; 
+  background-size: cover;
+}
+
+.login-box {
+  width: 600px;
+  height: 1000px;
+  background: rgb(214, 214, 214);
+  margin: 100px auto;
+  border-radius: 12px;
+
+}
+
+form {
+  padding-top: 10px;
+  margin-left: 40px;
+}
+select {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #111;
+  border-radius: 3px;
+  overflow: hidden;
+}
+input {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: white;
+  outline-width: thin;
+
+}
+
+button {
+  width: 50%;
+  border: none;
+  height: 35px;
+  border-radius: 25px;
+  background: rgb(82, 182, 221);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: -5px -5px 20px rgb(224, 217, 217), 5px 5px 20px #babecc;
+  margin: 20px auto;
+}
+
+input:focus {
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+
+button:active {
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+
+a {
+  margin-left: 1%;
+  color: blue;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+p {
+  text-align: center;
+  padding-top: 15px;
+  font-size: 15px;
+  margin-right: 14%;
+}
